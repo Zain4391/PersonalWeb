@@ -1,0 +1,34 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.hero{
+    background-image: url('webdev_bg.png');
+    background-size: cover;
+}
+.about-me {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('about_me_bg.jpeg');
+    background-position: center;
+}
+
+
+.img-fluid{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 0 10px black;
+}
+
+.hero-heading{
+    color: grey;
+}
+
+.btn-primary{
+    background-color: grey;
+    border: none;
+}
+
+.btn-primary:hover{
+    background-color: rgb(65, 64, 64);
+    transition: background-color 2s linear 1ms;
+}
